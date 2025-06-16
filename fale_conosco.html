@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area de Contato</title>
+    <style>
+       body{
+        padding-top: 20px;
+        padding-left: 600px;
+        background-color: #78767c;
+       }
+       form{
+        background-color: #e2e2e2;
+        position: absolute;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+        border: 1px solid black;
+        border-radius: 6px;
+       }
+       a{
+         text-decoration: none;
+         color: black;
+       }
+       #voltar{
+        margin-left: 7px;
+       }
+    </style>
+</head>
+<body>
+    <form>
+      <h1>Já agradeçemos seu contato!</h1>
+
+      <h2>Motivo do conatato?</h2>
+    
+      <input type="radio" name="motivo" value="sugesão">
+      <label>Sugestão</label>
+      <br>
+      <input type="radio" name="motivo" value="problema">
+      <label>Problema</label>
+      <br>
+      <input type="radio" name="motivo" value="duvida">
+      <label>Duvida</label>
+
+      <h3>Explique um pouco mais do contato</h3>
+      <textarea cols="50" rows="20"></textarea>
+      <br>
+
+      <h4>Gostou do sites ou das dicas? </h4>
+      <input type="checkbox">
+      <label>Sim</label>
+      <input type="checkbox">
+      <label>Não</label>
+      <input type="checkbox">
+      <label>Talvez</label>
+      <br><br>
+
+      <button >ENVIAR </button>
+      <button id="voltar"><a href="index.html">VOLTAR</a></button>
+    </form>
+</body>
+</html>
